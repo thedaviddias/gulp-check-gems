@@ -1,0 +1,34 @@
+{
+  "name": "gulp-check",
+  "version": "0.0.1",
+  "description": "gulp-check-gems",
+  "license": "MIT",
+  "repository": "daviddiasfront/gulp-check",
+  "author": {
+    "name": "David Dias",
+    "email": "contact@david-dias.com",
+    "url": "http://www.david-dias.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha && jshint ./test/."
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "shelljs": "^0.5.0",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "jshint": "^2.7.0",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  }
+}
