@@ -19,15 +19,17 @@ This plugin requires Ruby and your path configured.
 
 ```js
 var gulp = require('gulp');
+var sass = require('gulp-sass');
 var scsslint = require('gulp-scss-lint');
 var checkGem = require('gulp-check-gems');
 
 gulp.task('sass', function () {
-	return gulp.src('src/file.ext')
-		.pipe(checkGem({gemfile: 'scss-lint'},
-      		$.scsslint()
-    	))
-		.pipe(gulp.dest('dist'));
+  return gulp.src('sass/global.scss')
+    .pipe(checkGem({gemfile: 'scss-lint'},
+      scsslint()
+    ))
+    .pipe(sass())
+    .pipe(gulp.dest('dist'));
 });
 ```
 
