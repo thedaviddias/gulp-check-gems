@@ -1,6 +1,6 @@
 {
   "name": "gulp-check-gems",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Check the presence of a RubyGem in your system and execute a task",
   "license": "MIT",
   "repository": "https://github.com/daviddiasfront/gulp-check-gems",
