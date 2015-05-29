@@ -1,12 +1,12 @@
 {
-  "name": "gulp-check",
+  "name": "gulp-check-gems",
   "version": "0.0.1",
-  "description": "gulp-check-gems",
+  "description": "Check the presence of a RubyGem in your system and execute a task",
   "license": "MIT",
-  "repository": "daviddiasfront/gulp-check",
+  "repository": "https://github.com/daviddiasfront/gulp-check-gems",
   "author": {
     "name": "David Dias",
-    "email": "contact@david-dias.com",
+    "email": "daviddiasfront@gmail.com",
     "url": "http://www.david-dias.com"
   },
   "engines": {
