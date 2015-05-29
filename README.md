@@ -1,5 +1,7 @@
 # [gulp](https://gulpjs.com)-check-gems
 [![Build Status](https://travis-ci.org/daviddiasfront/gulp-check-gems.svg?branch=master)](https://travis-ci.org/daviddiasfront/gulp-check-gems)
+[![Dependencies](https://david-dm.org/daviddiasfront/gulp-check-gems.png)](https://david-dm.org/daviddiasfront/gulp-check-gems)
+[![npm module downloads per month](http://img.shields.io/npm/dm/gulp-check-gems.svg)](https://www.npmjs.org/package/gulp-check-gems)
 
 > Check the presence of a RubyGem in your system and execute a task
 
